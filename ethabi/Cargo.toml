@@ -43,7 +43,7 @@ std = [
 
 # To enable custom `Reader`/`Tokenizer` and `serde` features support
 full-serde = [
-	"std",
+	# "std",
 	"serde",
 	"serde_json",
 	"uint",
